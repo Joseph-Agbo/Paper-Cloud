@@ -17,10 +17,6 @@
     padding: 20px 0;
     align-items: center;
 }
-.cloudnav img{
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
 .headerlinks{
     list-style-type: none;
     display: flex;
@@ -472,19 +468,46 @@
     color: rgb(211, 205, 199);
     cursor: pointer;
 }
+.break{
+    display: none;
+}
+.high{
+    line-height: 0.5;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+.logo{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+    display: none;
+}
+
+
 @media (min-width: 1025px) and (max-width: 1440px) {
     .papercloud{
         margin: 0 auto;
+        width: 100%;
     }
 }
 @media screen and (max-width: 430px) {
-    .papercloud{
-        overflow: scroll;
-    }
     .firsttext{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .logo{
+        display: flex;
+        width: 100%;
     }
     .firstphone{
         order: 1;
@@ -522,18 +545,21 @@
         margin-left: 55px; 
     }
     .word{
-        bottom: 3px;
+        bottom: 160px;
+    }
+    .boon{
+        margin-bottom: 30px;
     }
     .firstbody{
         height: 2050px;
     }
     .thirdbody{
-        height: 2000px;
+        height: 2300px;
     }
     .paperlink{
-        margin-top: 620px;
+        margin-top: 630px;
         transform: translateX(-265px);
-        width: 310px;
+        width: 305px;
         padding: 0;
     }
     #days{
@@ -563,7 +589,7 @@
     }
     .every{
         margin-bottom: 520px;
-        margin-left: -205px;
+        margin-left: -220px;
         text-align: center;
     }
     .univer{
@@ -575,7 +601,310 @@
     .secondbody{
         height: 950px;
     }
-    
+    .thirdimg{
+        margin-left: -540px;
+        width: 950px;
+    }
+    .stut{
+        height: 2000px;
+    }
+    .youass{
+        text-align: left;
+        font-size: 15px;
+    }
+    .laptop{
+        display: none;
+    }
+    .vert{
+        width: 100%;
+    }
+    .girl{
+        width: 60%;
+        height: 290px;
+    }
+    .phone{
+        width: 35%;
+    }
+    .trimages{
+        margin-bottom: 150px;
+    }
+    .lastcloud{
+        transform: translateX(405px);
+        padding: 0;
+        width: 680px;
+    }
+    .see{
+        transform: translateY(90px);
+        margin-right: 320px;
+        width: 100%;
+    }
+    .start{
+        transform: translateY(130px);
+    }
+    .forthbody{
+        height: 1250px;
+    }
+    .fifthbody{
+        height: 1600px;
+    }
+    .tree{
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        margin-bottom: 50px;
+        margin-left: -30px;
+    }
+    .arc{
+        margin-top: 720px;
+        height: 280px;
+        width: 600px;
+    }
+    .one, .two{
+        margin-bottom: 30px;
+    }
+    .lastday{
+        margin-top: 1120px;
+        width: 330px;
+        padding: 0;
+    }
+    .no{
+        margin-bottom: 20px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .fool{
+        display: flex;
+    }
+    .fp{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: -130px ;
+    }
+    .useful{
+        margin-top: 50px;
+    }
+    .pah{
+        width: 100%;
+        transform: translateX(5px);
+    }
+    .lasman{
+        width: 82px;
+        height: 85px;
+    }
+    .bum{
+        width: 100%;
+        transform: translateX(-50px);
+    }
+}
+
+@media (min-width: 370px) and (max-width: 380px) {
+    .firstbody{
+        height: 2130px;
+    }
+    .paperlink{
+        margin-top: 650px;
+        margin-left: 300px;
+    }
+    .lastday{
+        margin-top: 1150px;
+    }
+    .every{
+        transform: translateX(-26px);
+    }
+    .six-div{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .firstbody{
+        height: 2200px;
+    }
+    .paperlink{
+        width: 280px;
+        transform: translateX(-300px);
+        margin-top: 660px;
+    }
+    .six-div{
+        margin-left: 15px;
+    }
+    .univer{
+        margin-left: -35px;
+        font-size: 10px;
+    }
+    .break{
+        display: inline;
+    }
+    .forthbody{
+        height: 1340px;
+    }
+    .start{
+        transform: translateY(110px);
+    }
+    .logo{
+        display: flex;
+        width: 100%;
+    }
+    .every{
+        transform: translateX(-40px);
+    }
+}
+
+@media (min-width: 433px) and (max-width: 770px) {
+    #grid{
+        display: none;
+    }
+    .firsttext{
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    #move{
+        height: 40px;
+        width: 50%;
+    }
+    #voon{
+        height: 40px;
+        width: 50%;
+        margin-top: 15px;
+    }
+    .firstphone{
+        transform: translateX(30px);
+    }
+    .appstore{
+        margin-left: 15px;
+    }
+    #data{
+        text-align: center;
+    }
+    .firstbody{
+        height: 1550px;
+    }
+    .six-div{
+        margin-top: -15px;
+    }
+    .paperlink{
+        margin-top: 390px;
+        padding: 0;
+        width: 380px;
+        margin-left: 187px;
+    }
+    #circle{
+        margin-top: 300px;
+    }
+    .media{
+        margin-left: 70px;
+    }
+    .ann{
+        margin-right: 70px;
+    }
+    .thirdbody{
+        height: 1200px;
+    }
+    .secondbody{
+        height: 1000px;
+    }
+    .lines{
+        transform: translateX(200px);
+        height: 270px;
+        margin-bottom: 120px;
+    }
+    .search{
+        height: 500px;
+        width: 30%;
+        transform: translateX(-230px);
+    }
+    .every{
+        transform: translateY(-380px);
+        margin-left: 120px;
+    }
+    .univer{
+        width: 100%;
+        margin-left: -450px;
+        transform: translateY(70px);
+    }
+    .word{
+        transform: translateY(30px);
+    }
+    .fidi{
+        margin-left: 45px;
+    }
+    .ade{
+        margin-right: 45px;
+    }
+    .laptop{
+        display: none;
+    }
+    .vert{
+        width: 100%;
+    }
+    .girl{
+        width: 70%;
+        height: 440px;
+        transform: translateY(85px);
+    }
+    .phone{
+        width: 60%;
+        height: 400px;
+        transform: translateY(30px);
+    }
+    .lastcloud{
+        padding: 0;
+        width: 380px;
+        margin-left: 10px;
+    }
+    .fifthbody{
+        height: 1200px;
+    }
+    .arc{
+        margin-top: 350px;
+        width: 130%;
+        height: 1700px;
+    }
+    .lastday{
+        transform: translateY(140px);
+        padding: 0;
+        width: 370px;
+    }
+    .no{
+        margin-bottom: 30px;
+    }
+    .tree{
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(-40px);
+    }
+    .one{
+        margin-bottom: 40px;
+    }
+    .two{
+        margin-right: 60px;
+    }
+    .one, .tri{
+        margin-left: 80px;
+    }
+    .logo{
+        display: flex;
+        width: 100%;
+    }
+    .footer{
+        display: block;
+    }
+    .fp{
+        margin-top: 30px;
+    }
+    .lab{
+        display: none;
+    }
+    .pah{
+        margin-left: 20px;
+    }
+    .useful{
+        transform: translateX(50px);
+    }
 }
 
 
