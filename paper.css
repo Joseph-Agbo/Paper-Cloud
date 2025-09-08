@@ -163,9 +163,9 @@
     flex-wrap: wrap;
     height: 110px;
     position: absolute;
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* opacity: 0; */
+    /* transform: translateY(40px); */
+    /* transition: transform 5s ease; */
 }
 .firstsix{
     background: transparent linear-gradient(309deg, rgb(253,243,231), rgb(255,255,255)) no-repeat;
@@ -218,11 +218,11 @@
 .sixthdiv:hover{
     box-shadow: 0 10px 20px rgb(183, 232, 246);
 }
-.firstbody:hover .six-div{
+/* .firstbody:hover .six-div{
     opacity: 1;
     transform: translateY(-25px);
     transition: transform 3s ease;
-}
+} */
 .paperlink{
     margin-top: 95px;
     border-radius: 25px;
